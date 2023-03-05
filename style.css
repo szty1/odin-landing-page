@@ -28,15 +28,6 @@ body {
     align-items: center;
 }
 
-.content {
-    flex: 1;
-}
-
-.hero-container {
-    background-color: #1f2937;
-    display: flex;
-    justify-content: center;
-}
 
 .topmenu {
     display: flex;
@@ -51,6 +42,61 @@ body {
 }
 
 .topmenu a:hover {
+    color: #f9faf8;
+}
+
+.content {
+    flex: 1;
+}
+
+.hero-container {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    min-height: 400px;
+}
+
+.hero {
+    flex: 0 1 1000px;
+    display: flex;
+    gap: 50px;
+    padding: 100px 0;
+} 
+
+.hero-left {
+    flex: 1;
+}
+
+.hero-left h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.hero-left p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 10px 0 15px 0;
+}
+
+.hero-left button {
+    font-family: Roboto, sans-serif;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    padding: 5px 30px;
+}
+
+.hero-right {
+    flex: 1;
+    background-color: #73777e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #f9faf8;
 }
 
