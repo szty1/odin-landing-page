@@ -46,7 +46,6 @@ body {
     background-color: #1f2937;
     display: flex;
     justify-content: center;
-    display: flex;
     gap: 50px;
     align-items: center;
     padding: 100px 200px;
@@ -121,6 +120,25 @@ body {
 
 .random-info-card p {
     text-align: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 100px 350px;
+}
+
+.quote em {
+    font-size: 36px;
+    font-weight:lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote p {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: right;
 }
 
 .footer {
