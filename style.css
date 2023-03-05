@@ -14,20 +14,13 @@ body {
    margin: 0;
 }
 
-.header-container {
+.header {
     background-color: #1f2937;
     display: flex;
-    justify-content: center;
-}
-
-.header {
-    flex: 0 1 1000px;
-    display: flex;
     justify-content: space-between;
-    padding: 0 20px;
+    padding: 0 200px;
     align-items: center;
 }
-
 
 .topmenu {
     display: flex;
@@ -49,19 +42,15 @@ body {
     flex: 1;
 }
 
-.hero-container {
+.hero {
     background-color: #1f2937;
     display: flex;
     justify-content: center;
-    min-height: 400px;
-}
-
-.hero {
-    flex: 0 1 1000px;
     display: flex;
     gap: 50px;
-    padding: 100px 0;
-} 
+    align-items: center;
+    padding: 100px 200px;
+}
 
 .hero-left {
     flex: 1;
@@ -81,11 +70,9 @@ body {
 }
 
 .hero-left button {
-    font-family: Roboto, sans-serif;
     border: none;
     border-radius: 8px;
     font-size: 20px;
-    font-weight: 700;
     color: #e5e7eb;
     background-color: #3882f6;
     padding: 5px 30px;
@@ -93,11 +80,47 @@ body {
 
 .hero-right {
     flex: 1;
+    min-height: 250px;
     background-color: #73777e;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #f9faf8;
+}
+
+.random-info {
+    padding: 50px 200px;
+}
+
+.random-info h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.random-info-container {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.random-info-card {
+    display: flex;
+    width: 150px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.random-info-card .frame {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 8px;
+}
+
+.random-info-card p {
+    text-align: center;
 }
 
 .footer {
